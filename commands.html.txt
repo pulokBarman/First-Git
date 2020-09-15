@@ -1,0 +1,12 @@
+git init //initializes git in a folder, needed to initialize once.
+
+git status //shows untracted files basically
+
+git add file_name //adds file to git
+
+git commit file_name //commits the file in local git repository
+	or git commit -m "first commit" file_name //-m for message to understand what is commited
+
+git remote add origin https://github.com/pulokBarman/First-Git.git //uploading files to github
+
+git push -u origin master
